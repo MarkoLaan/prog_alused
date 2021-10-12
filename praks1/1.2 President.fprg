@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Marko"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 09:10:18 AM"/>
+        <attribute name="created" value="TWFya287REVTS1RPUC00RkRLUUtCOzIwMjEtMTAtMTI7MDg6NTc6NTggQU07Mjg0Nw=="/>
+        <attribute name="edited" value="TWFya287REVTS1RPUC00RkRLUUtCOzIwMjEtMTAtMTI7MDk6MTA6MTggQU07MjsyOTQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="aasta" type="Integer" array="False" size=""/>
+            <assign variable="aasta" expression="2016"/>
+        </body>
+    </function>
+</flowgorithm>
