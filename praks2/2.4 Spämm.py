@@ -8,4 +8,5 @@ if size < 1.0:
     else:
         print("Kiri ei ole spämm")
 else:
-    print("Kiri ei ole spämm")
+    if file == "jah":
+        print("Kiri on spämm")
