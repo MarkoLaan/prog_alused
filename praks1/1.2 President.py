@@ -1,5 +1,4 @@
-aasta = 2021
-president = "Allar Karis"
-lauseKeskosa = ". aastal valiti Eesti presidendiks "
-lause = str(aasta) + lauseKeskosa + president
-print(lause)
+astme_alus = int(input("Sisestage astme alus:"))
+astendaja = int(input("Sisestage astendaja:"))
+vastus = astme_alus ** astendaja
+print(vastus)

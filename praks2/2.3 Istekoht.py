@@ -1,5 +1,6 @@
 from random import randint
 
+koht = ()
 valik = input("Kas soovite istekoha valida ise või loosi teel? (ise/loos) : ")
 if valik == "ise":
     istekoht = input("Aknakoht või mitte (aken/muu) : ")

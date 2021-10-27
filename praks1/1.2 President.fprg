@@ -4,15 +4,22 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Marko"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2021-10-12 09:10:18 AM"/>
+        <attribute name="saved" value="2021-10-12 09:55:23 AM"/>
         <attribute name="created" value="TWFya287REVTS1RPUC00RkRLUUtCOzIwMjEtMTAtMTI7MDg6NTc6NTggQU07Mjg0Nw=="/>
-        <attribute name="edited" value="TWFya287REVTS1RPUC00RkRLUUtCOzIwMjEtMTAtMTI7MDk6MTA6MTggQU07MjsyOTQy"/>
+        <attribute name="edited" value="TWFya287REVTS1RPUC00RkRLUUtCOzIwMjEtMTAtMTI7MDk6NTU6MjMgQU07MzsyOTQ4"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="aasta" type="Integer" array="False" size=""/>
             <assign variable="aasta" expression="2016"/>
+            <declare name="president" type="String" array="False" size=""/>
+            <assign variable="president" expression="&quot;Kersti Kaljulaid&quot;"/>
+            <declare name="lauseKeskosa" type="String" array="False" size=""/>
+            <assign variable="lauseKeskosa" expression="&quot;. aastal valiti Eesti presidendiks &quot;"/>
+            <declare name="lause" type="String" array="False" size=""/>
+            <assign variable="lause" expression="aasta &amp; lauseKeskosa &amp; president"/>
+            <output expression="lause" newline="True"/>
         </body>
     </function>
 </flowgorithm>

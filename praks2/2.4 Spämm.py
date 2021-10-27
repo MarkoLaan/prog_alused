@@ -7,3 +7,5 @@ if size < 1.0:
         print("Kiri on spämm")
     else:
         print("Kiri ei ole spämm")
+else:
+    print("Kiri ei ole spämm")
